@@ -75,7 +75,7 @@ def _pip_parse_ext_attrs():
 
 pip = module_extension(
     doc = """\
-This extension is used to create a pip respository and create the various wheel libaries if
+This extension is used to create a pip respository and create the various wheel libraries if
 provided in a requirements file.
 """,
     implementation = _pip_impl,
